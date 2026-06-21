@@ -1,25 +1,38 @@
-# css-shadow-tool
+# CSS 阴影生成器
 
-CSS box-shadow generator - multi-layer visual editor
+> CSS 盒阴影/文字阴影可视化编辑器，多层阴影叠加调参，代码一键导出
 
-## Features
+## 功能概览
 
-Pure frontend tool - no server required, open in browser and use.
+- **box-shadow 参数可视化调节：X/Y 偏移、模糊、扩展、颜色**
+- **text-shadow 文字阴影独立编辑面板**
+- **多层阴影叠加：任意添加/删除阴影层，自由排序**
+- **实时预览 代码同步输出，所见即所得**
+- **一键复制含浏览器前缀的完整 CSS 代码**
 
-## Usage
+## 操作说明
 
-1. Download index.html
-2. Open in browser
-3. Start using!
+1. 打开 index.html（浏览器直接运行，无需服务器）
+2. 按界面引导输入/操作
+3. 结果实时预览，支持一键复制导出
 
-Or visit GitHub Pages (if configured).
+## 技术栈
 
-## Tech Stack
+- **HTML5**：语义化结构
+- **CSS3**：白色极简主题，Flex/Grid 布局
+- **Vanilla JavaScript**：纯原生代码，零依赖
+- **ES6+**：sync/await、箭头函数、模板字符串
+- **localStorage**：偏好设置持久化
 
-- Pure HTML/CSS/JavaScript
-- Zero dependencies, no build tools
-- White minimalist theme design
+## 兼容性
 
-## License
+| 浏览器 | 支持情况 |
+|---|---|
+| Chrome 90+ | 完全支持 |
+| Firefox 88+ | 完全支持 |
+| Safari 14+ | 完全支持 |
+| Edge 90+ | 完全支持 |
 
-MIT
+## 许可证
+
+MIT (c) solcat1007
